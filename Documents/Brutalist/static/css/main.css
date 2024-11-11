@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+/* Raw, unstyled links */
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* Simple responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
